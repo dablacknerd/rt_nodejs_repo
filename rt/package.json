@@ -1,0 +1,24 @@
+{
+  "name": "rt",
+  "version": "0.0.1",
+  "description": "This module is abstraction for the APIs provided by Rotten Tomatoes for accessing their movie database.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dablacknerd/rt_nodejs_repo.git"
+  },
+  "keywords": [
+    "rotten",
+    "tomatoes",
+    "ratings",
+    "movies",
+    "movie",
+    "clips"
+  ],
+  "author": "Adetomiwa Oguntuga <tom4891@gmail.com>",
+  "license": "BSD"
+  "dependencies":{"superagent":"0.12.1"}
+}

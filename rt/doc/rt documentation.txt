@@ -1,0 +1,30 @@
+﻿movies(movieName,flag,done): Takes the name of a movie,a flag (a or b) and a callback function. If flag is 'a', it will return movie titles and corresponding ids that match the movie name you entered. If b, it will return the raw data from rotten 
+tomatoes.
+
+movie(movieName,flag,done):  It takes 3 parameters, movieName, flag (a or b) and a callback function. It returns data for only one movie, so the  movie name (movieName) must be specific. If flag is 'a', it will return the rotten tomatoes id of the movie, if b, it will return the raw data from rotten tomatoes.	
+
+boxOffice(flag,done):  It takes 2 parameters, a flag (a or b) and a callback function.
+If the flag values is a; it will return data for the top 10 box office movies. The data that will be returned are title,id,mpaa rating,release date, runtime,thumbnail picture link and profile picture link. 
+If the flag value is b; it will return the raw data from rotten tomatoes.
+
+inTheaters(done): Takes a callback function and returns the list of movies currently in at the movies.
+
+openingMovies(done): Returns the list of opening movies for the weekend. It returns the raw data from rotten tomatoes if there is more than one page provided by the api. If there is only one page, it returns the title,rotten tomatoes id,  thumbnail link and release date for each up coming movie.
+
+upComingMovies(done): Returns data on up coming movies. Takes a call back function as it's only parameter. 
+
+topRentals(done): Returns Top 10 dvd rentals. Takes a call back function as it's only parameter.
+
+currentReleasesDvd(done): Takes a callback function and returns the list of currently released DVDs.
+
+newReleaseDvd(done): Takes a call back function and returns a list of new released movies, with their titles and dvd release dates.
+
+upComingDvd(done): Takes a call back function and returns a list of upcoming movies.
+
+movieCast(id,done): Takes the rotten tomatoes id of a movie and a callback function. 
+It returns a JSON object containing the cast list for the movie.
+
+similarMovies(id,done): Takes the rotten tomatoes id of a movie and a callback function. 
+It returns a JSON object containing a list of similar movies.
+
+movieClips(id,done): Takes the rotten tomatoes id of a movie and a callback function. It returns a JSON object containing a list of clips for the movie searched for.
